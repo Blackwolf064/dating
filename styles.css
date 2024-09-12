@@ -1,3 +1,8 @@
+
+*{
+    box-sizing: border-box;
+    width: 100%;
+}
 body {
     margin: 0;
     padding: 0;
@@ -6,16 +11,20 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    box-sizing: border-box;
+    /* /* box-sizing: border-box; */
+    width: 100%; */
+    overflow: hidden;
+
 }
 
 .header {
     display: flex;
-    /* justify-content: space-evenly; */
+    width: 100%;
     align-items: center;
-    padding: 0 40px;
+    /* padding: 0 40px; */
     background-color: #000000;
     color: rgb(222, 217, 217);
+    overflow: hidden;
 }
 .header-logo,
 .header-link {
@@ -27,7 +36,9 @@ body {
 .logo-image {
     height: 40px;
     align-self: center;
-    padding-left: 20px;
+    margin: auto;
+    width: auto;
+    /* padding-left: 20px; */
 
 }
 
@@ -51,7 +62,7 @@ body {
     display: flex;
     align-items: center;
     align-self: center;
-    gap: 30px;
+    gap: 20px;
     list-style-type: none;
 }
 ul a {
@@ -84,8 +95,8 @@ ul{
     align-items: center;
     /* justify-content: flex-start; */
     align-self: center;
-    flex: 2;
-    /* gap: 10px; */
+    /* flex: 2; */
+    gap: 10px;
 
 }
 .text{
