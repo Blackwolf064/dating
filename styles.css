@@ -2,7 +2,7 @@
 *{
     box-sizing: border-box;
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 body {
     margin: 0;
@@ -93,13 +93,14 @@ ul{
     flex-direction: column;
     align-items: center;
     /* justify-content: flex-start; */
-    align-self: center;
+    /* align-self: center; */
     /* flex: 2; */
     gap: 10px;
 
 }
 .text{
     display: flex;
+    align-self: center;
     font-size: 1.5em;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
