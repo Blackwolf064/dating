@@ -124,7 +124,7 @@ ul{
     border: 1px outset rgb(156, 43, 43);
     border-radius: 10px;
     padding: 8px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 .fate,
 .meet {
@@ -138,8 +138,9 @@ ul{
 .signup-button{
     display: flex;
     justify-content: center;
-    align-self: center;
-    /* width: 80px; */
+    align-items: center;
+    /* width: 100px; */
+    height: 30px;
     background-color: #830a0a;
     border: 1px outset rgb(156, 43, 43);
     color: #cdb6b6;
