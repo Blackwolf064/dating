@@ -98,9 +98,6 @@ ul{
     margin: 0;
     padding: 0;
     width: auto;
-    /* justify-content: flex-start; */
-    /* align-self: center; */
-    /* flex: 0; */
     gap: 10px;
 
 }
@@ -116,11 +113,10 @@ ul{
 .subtext{
     display: flex;
     font-size: 14px;
-    /* max-width: 100px; */
     font-style: italic;
     flex-wrap: wrap;
     margin: auto;
-    border: 1px outset rgb(156, 43, 43);
+    /* border: 1px outset rgb(156, 43, 43); */
     border-radius: 10px;
     padding: 8px;
     /* margin-left: 20px; */
