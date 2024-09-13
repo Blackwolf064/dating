@@ -258,7 +258,7 @@ figure {
     width: 200px;
     background: linear-gradient(1deg, #000000, #c81313);
     border-radius: 10px;
-    height: 60px;
+    /* height: 60px; */
     /* justify-content: flex-start; */
     align-items: center;
 }
