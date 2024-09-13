@@ -117,7 +117,7 @@ ul{
     font-style: italic;
     flex-wrap: wrap;
     margin: auto;
-    /* border: 1px outset rgb(156, 43, 43); */
+    border: 1px outset rgb(156, 43, 43);
     border-radius: 10px;
     padding: 8px;
     /* margin-left: 20px; */
